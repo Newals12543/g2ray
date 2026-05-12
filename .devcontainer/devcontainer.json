@@ -1,5 +1,5 @@
 {
-  "name": "cold-node-653c03",
+  "name": "iron-wave-656df2",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "cold-node-653c03",
+      "label": "iron-wave-656df2",
       "protocol": "http",
       "onAutoForward": "silent"
     }
